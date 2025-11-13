@@ -1,0 +1,14 @@
+/* AboutUs.css */
+
+.custom-font {
+    font-family: 'Arial', sans-serif; /* Change to any font family you prefer */
+  }
+  
+  .hover-effect {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .hover-effect:hover {
+    transform: scale(1.05);
+  }
+  

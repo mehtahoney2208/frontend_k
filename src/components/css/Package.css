@@ -1,0 +1,22 @@
+.con {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1rem;
+  }
+  
+  .card {
+    width: 18rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  

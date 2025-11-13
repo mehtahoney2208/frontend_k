@@ -1,0 +1,195 @@
+.root {
+    --PrimaryColor: hsl(199, 100%, 33%);
+    --SecondaryColor: hsl(187, 85%, 43%);
+    --gradientColor: linear-gradient(to right, hsl(187, 85%, 43%), hsl(199, 100%, 33%));
+    --whiteColor: hsl(0, 0%, 100%);
+    --blackColor: hsl(201, 33%, 16%);
+    --textColor: hsl(240, 4%, 36%);
+    --whiteColorDeam: hsl(0, 0%, 93%);
+    --greyText: rgb(190, 190, 190);
+    --inputColor: rgb(239, 239, 239);
+    --bodyColor: rgb(240, 240, 246);
+    --cardBG: rgb(225, 225, 235);
+}
+
+/* BACKGROUND IMG */
+.example {
+    height: 100%;
+    width: 100%;
+    margin-top: 1%;
+    filter: blur(4px);
+  }
+  
+  /* OVERLAY TEXT */
+  .text1 {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+  }
+  .overlay-text1 {
+    font-size: 60px; /* Adjust font size as needed */
+   
+    margin-top: 45%;
+    font-family:cursive;
+  }
+.cardInfo {
+    padding: 1rem;
+}
+
+.desTitle {
+    color: var(--blackColor);
+    font-size: 1.25rem;
+}
+
+.continent {
+    gap: 0.5rem;
+}
+
+.continent .icon {
+    color: var(--textColor);
+    font-size: 18px;
+}
+
+.continent .name {
+    color: var(--textColor);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.fees {
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-top: 1.5px solid var(--greyText);
+    border-bottom: 1.5px solid var(--greyText);
+}
+
+.grade {
+    color: var(--textColor);
+    max-width: 100px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grade small {
+    text-align: center;
+    background: var(--gradientColor);
+    border-radius: 1rem;
+    color: var(--whiteColor);
+    padding: 1px 10px;
+    font-size: 10px;
+}
+
+.price {
+    font-size: 2rem;
+    color: var(--blackColor);
+}
+
+.desc {
+    font-size: 13.5px;
+    color: var(--textColor);
+    font-weight: 500;
+}
+
+.btn {
+    margin-top: 1rem;
+    color: var(--whiteColor);
+    font-weight: 600;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.btn .icon {
+    align-self: center;
+    font-size: 18px;
+}
+.facility {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .facility h3 {
+    margin: 0 0 10px;
+    font-size: 1.2rem;
+  }
+  
+  .facility p {
+    margin: 0;
+  }
+  
+  .facilities-list {
+    display:flex;
+  }
+  
+  .app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .app h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+footer-class {
+    background-color: #000;
+    color: #fff;
+}
+
+.container-class {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.h5-class {
+    color: var(--blackColor);
+    margin-bottom: 20px;
+}
+
+.ul-class li {
+    margin-bottom: 15px;
+}
+
+.form-control-class {
+    background-color: var(--whiteColor);
+    border: none;
+    color: #fff;
+}
+
+.form-control-class:focus {
+    background-color: var(--whiteColor);
+    color: #fff;
+}
+
+.btn-success-class {
+    width: 100%;
+    background-color: var(--blackColor);
+    border-color: var(--blackColor);
+}
+
+.btn-success-class:hover {
+    background-color: var(--PrimaryColor);
+    border-color: var(--PrimaryColor);
+}
+
+.text-center-class {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.d-icons-class {
+    padding-right: 18%;
+    font-size: large;
+}
